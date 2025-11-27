@@ -28,6 +28,7 @@ public class Evn {
         Map<String, String> env = processBuilder.environment();
         env.put("GeminiKey", Util.GEMINI_KEY);
         env.put("GptKey", Util.GPT_KEY);
+        env.put("GptKey", Util.GPT_KEY);
 
         try {
             Process process = processBuilder.start();
